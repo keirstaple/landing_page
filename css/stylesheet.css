@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html {
+  background: url("../images/mountain.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+  font-family: "HelveticaNeue-Light";
+  font-weight: 300;
+}
+
+ .navbar {
+  margin-left: 10%;
+  padding-right: 5px;
+  height: 100%;
+  text-align: right;
+  color: white;
+  font: inherit;
+ }
+
+.navbar li {
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font: inherit;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar button{
+  background: none;
+  font: inherit;
+  border: solid 1px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.main img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
